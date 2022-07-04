@@ -33,13 +33,13 @@ Enter a command: Connect
 Sending a server request...
 Connection successful
 ```
-After that, all other commands can be entered through the client. Messages will display the progress of the request on both the client and server end. For example, to upload a file 'my_file.mp4', use the following command:
+After that, all other commands can be entered through the client. Messages will display the progress of the request on both the client and server end. For example, to upload a file 'filename.xyz', use the following command:
 ```
-Enter a command: UPLD my_file.mp4
+Enter a command: UPLD filename.xyz
 ```
 All standard file paths also work:
 ```
-Enter a command: UPLD C:\Users\...\folder\my_file.mp4
+Enter a command: UPLD C:\Users\...\folder\filename.xyz
 ```
 
 When the server receives a file, it puts it in the same folder that it is in. Likewise, when the LIST command is used the server searches for files in the same folder that it is located in.
