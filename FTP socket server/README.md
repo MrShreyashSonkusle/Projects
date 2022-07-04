@@ -1,11 +1,4 @@
-# FTP File Server via Socket Programming in Python
-
-This is a file server written in Python 2.7, which makes use of Python's socket module. It enables the transfer of any file type.
-
-All the packages used in this implementation are included in the standard library.
-
-### Usage
-
+# FTP File Server 
 To run the server/client, call the appropriate program from the terminal. Each program will display a short message on startup:
 ```
 > python server.py
